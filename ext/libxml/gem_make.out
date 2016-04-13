@@ -1,0 +1,40 @@
+/home/scoutdb/.rbenv/versions/1.8.7-p375/bin/ruby extconf.rb
+checking for socket() in -lsocket... no
+checking for gethostbyname() in -lnsl... yes
+checking for atan() in -lm... no
+checking for atan() in -lm... yes
+checking for inflate() in -lz... yes
+checking for iconv_open() in -liconv... no
+checking for libiconv_open() in -liconv... no
+checking for libiconv_open() in -llibiconv... no
+checking for iconv_open() in -llibiconv... no
+checking for iconv_open() in -lc... yes
+checking for xmlParseDoc() in -lxml2... yes
+checking for libxml/xmlversion.h... no
+checking for libxml/xmlversion.h in /opt/include/libxml2,/usr/local/include/libxml2,/usr/include/libxml2... yes
+creating extconf.h
+creating Makefile
+
+make
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_encoding.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_sax2_handler.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_html_parser_context.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c libxml.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_namespace.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_html_parser.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_html_parser_options.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_cbg.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_sax_parser.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_input_cbg.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_document.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_dtd.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_xpointer.c
+/usr/bin/gcc -I. -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include -DRUBY_EXTCONF_H=\"extconf.h\" -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include   -I/home/scoutdb/.rbenv/versions/1.8.7-p375/include  -fPIC -g -O2  -I. -I/home/scoutdb/.rbenv/versions/1.8.7-p375/lib/ruby/1.8/x86_64-linux -I. -I/usr/include/libxml2 -I/usr/local/include  -c ruby_xml_node.c
+ruby_xml_node.c: In function ‘rxml_node_to_s’:
+ruby_xml_node.c:575:52: error: dereferencing pointer to incomplete type
+     result = rb_str_new2((const char*) output->conv->content);
+                                                    ^
+ruby_xml_node.c:577:54: error: dereferencing pointer to incomplete type
+     result = rb_str_new2((const char*) output->buffer->content);
+                                                      ^
+make: *** [ruby_xml_node.o] Error 1
